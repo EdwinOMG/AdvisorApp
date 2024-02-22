@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <content>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0">
+         <children>
+            <ImageView fitHeight="134.0" fitWidth="1681.0" layoutX="241.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Desktop/Screenshot%202024-02-20%20at%204.15.23%20PM.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="352.0" fitWidth="185.0" layoutX="7.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Desktop/Screenshot%202024-02-20%20at%204.15.31%20PM.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="149.0" fitWidth="1701.0" layoutX="222.0" layoutY="89.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Desktop/Screenshot%202024-02-20%20at%204.25.56%20PM.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="52.0" fitWidth="1699.0" layoutX="230.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Desktop/Screenshot%202024-02-20%20at%204.41.39%20PM.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="51.0" fitWidth="1697.0" layoutX="230.0" layoutY="259.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Desktop/Screenshot%202024-02-20%20at%204.41.31%20PM.png" />
+               </image>
+            </ImageView>
+            <Accordion layoutX="185.0" layoutY="355.0" />
+            <ImageView fitHeight="60.0" fitWidth="1698.0" layoutX="230.0" layoutY="440.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Desktop/Screenshot%202024-02-20%20at%204.41.46%20PM.png" />
+               </image>
+            </ImageView>
+            <TableView fx:id="first_table" editable="true" layoutX="230.0" layoutY="278.0" prefHeight="163.0" prefWidth="1693.0">
+              <columns>
+                <TableColumn prefWidth="75.0" />
+                <TableColumn prefWidth="75.0" />
+              </columns>
+            </TableView>
+            <ImageView fitHeight="79.0" fitWidth="1697.0" layoutX="230.0" layoutY="630.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Desktop/Screenshot%202024-02-20%20at%205.12.37%20PM.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="61.0" fitWidth="1696.0" layoutX="230.0" layoutY="840.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Desktop/Screenshot%202024-02-20%20at%204.42.13%20PM.png" />
+               </image>
+            </ImageView>
+            <TableView fx:id="second_table" editable="true" layoutX="234.0" layoutY="459.0" prefHeight="174.0" prefWidth="1688.0">
+               <columns>
+                  <TableColumn prefWidth="75.0" />
+                  <TableColumn prefWidth="75.0" />
+               </columns>
+            </TableView>
+            <TableView fx:id="third_table" editable="true" layoutX="230.0" layoutY="646.0" prefHeight="195.0" prefWidth="1691.0">
+               <columns>
+                  <TableColumn prefWidth="75.0" />
+                  <TableColumn prefWidth="75.0" />
+               </columns>
+            </TableView>
+            <TableView fx:id="fourth_table" editable="true" layoutX="230.0" layoutY="858.0" prefHeight="222.0" prefWidth="1690.0">
+               <columns>
+                  <TableColumn prefWidth="75.0" />
+                  <TableColumn prefWidth="75.0" />
+               </columns>
+            </TableView>
+            <TableView fx:id="pre_table" editable="true" layoutX="230.0" layoutY="186.0" prefHeight="71.0" prefWidth="1703.0">
+               <columns>
+                  <TableColumn prefWidth="75.0" />
+                  <TableColumn prefWidth="75.0" />
+               </columns>
+            </TableView>
+         </children>
+      </Pane>
+   </content>
+</ScrollPane>
